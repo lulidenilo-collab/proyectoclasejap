@@ -1,0 +1,99 @@
+.onix {
+    width: 20%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.fiat-way {
+    width: 20%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.suzuki-celerio {
+    width: 20%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.bugatti-chiron {
+    width: 20%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.peugeot {
+    width: 20%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 0;
+}
+
+
+.fila {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.fila:hover {
+  transform: translateY(-5px);
+}
+
+.thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.info {
+  padding: 15px;
+}
+
+.nombre {
+  font-size: 1.2rem;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.vendidos {
+  font-size: 0.9rem;
+  color: #777;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.precio {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #0a7c2f;
+}
